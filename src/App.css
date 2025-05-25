@@ -1,0 +1,59 @@
+.appContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 480px;
+  background-color: black;
+  height: 100vh;
+  position: relative;
+}
+.storyModalWrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.stroiesContainer {
+  height: 100%;
+  padding: 1vw;
+  width: 100%;
+  overflow-y: hidden;
+}
+.storyCardWrapper {
+  width: 100%;
+  overflow-y: auto;
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+  flex-wrap: nowrap;
+}
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 2vw;
+  margin-top: 3vw;
+}
+.ctBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 2.3vw;
+  cursor: pointer;
+}
+.ctBtn:hover {
+  color: rgb(199, 165, 73);
+}
