@@ -42,3 +42,19 @@
   right: 0;
   /* background-color: aquamarine; */
 }
+
+.progressBarWrapper {
+  position: absolute;
+  top: 1vw;
+  left: 0;
+  height: 4px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  z-index: 10;
+}
+
+.progressBar {
+  height: 100%;
+  background-color: white;
+  width: 0%;
+}
